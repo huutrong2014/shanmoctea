@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Be Vietnam Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;
+
+  --color-ink: #171A17;
+  --color-shan-green: #243126;
+  --color-forest: #39493B;
+  --color-earth: #675546;
+  --color-paper: #F5F1E8;
+  --color-mist: #E5E4DE;
+  --color-white: #FCFCFA;
+
+  --color-tea-liquor: #B5945D;
+  --color-dry-leaf: #716855;
+  --color-young-leaf: #77856E;
+}
+
+:root {
+  --ink: #171A17;
+  --shan-green: #243126;
+  --forest: #39493B;
+  --earth: #675546;
+  --paper: #F5F1E8;
+  --mist: #E5E4DE;
+  --white: #FCFCFA;
+
+  --tea-liquor: #B5945D;
+  --dry-leaf: #716855;
+  --young-leaf: #77856E;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+  background-color: var(--paper);
+  color: var(--ink);
+}
+
+/* Subtle paper texture overlay */
+.paper-texture {
+  background-color: #F5F1E8;
+  background-image: radial-gradient(rgba(23, 26, 23, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Subtle mist gradient */
+.mist-gradient {
+  background: linear-gradient(180deg, rgba(229, 228, 222, 0.3) 0%, rgba(245, 241, 232, 0.9) 100%);
+}
+
+/* Shan Archive border utility */
+.archive-border {
+  border-color: rgba(103, 85, 70, 0.2);
+}
+
+/* Restrained custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F5F1E8;
+}
+::-webkit-scrollbar-thumb {
+  background: #C4BFB4;
+  border-radius: 0;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #716855;
+}

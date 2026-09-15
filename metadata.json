@@ -1,0 +1,7 @@
+{
+  "name": "SHAN MỘC - Trà Shan Tuyết Cổ Thụ",
+  "description": "Thương hiệu trà Shan Tuyết cổ thụ vùng núi cao phía Bắc Việt Nam. Trà từ núi. Mộc từ tâm.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
